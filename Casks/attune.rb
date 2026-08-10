@@ -1,9 +1,9 @@
 cask "attune" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.2.1"
-  sha256 arm: "8f31e0bb1299ffdca5a3308a0fb9c6a3419ba103ba7d03b37ed984a17851f94b",
-         intel: "f4a0f2c537292efc3a3afe065c55f53e9cbc83b7b036711ab1a6867bad71394e"
+  version "0.3.0"
+  sha256 arm: "b776c07257ef1113e8560d9e9cb8de2d713cff4fb213eacb3b52d4c21f44a82f",
+         intel: "e4b9f28aee0d9ef5cf053329ed3ced95b3535e307fa1d764ee40cf2d96a9ff0e"
 
   url "https://github.com/attune-system/attune/releases/download/v#{version}/attune_#{version}_darwin_#{arch}.tar.gz"
   name "Attune"
