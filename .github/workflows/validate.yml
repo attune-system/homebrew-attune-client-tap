@@ -34,4 +34,4 @@ jobs:
             exit 0
           fi
 
-          brew audit --cask --strict Casks/attune.rb
+          brew audit --cask --strict attune
