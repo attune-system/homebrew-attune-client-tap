@@ -26,6 +26,8 @@ cask "attune" do
 
   binary "attune"
   binary "attune-mcp"
+
+  generate_completions_from_executable "attune", "completion"
 end
 """
 
