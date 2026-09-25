@@ -5,7 +5,7 @@ This tap distributes the Attune CLI and MCP server as a Homebrew cask.
 ## Installation
 
 ```bash
-brew install --cask attune-system/attune-client-homebrew-tap/attune
+brew install --cask attune-system/attune-client-tap/attune
 ```
 
 The cask installs both executables:
