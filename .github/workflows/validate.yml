@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   audit:
-    runs-on: macos-14
+    runs-on: macos-26
     steps:
       - name: Check out tap
         uses: actions/checkout@v6
